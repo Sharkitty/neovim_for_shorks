@@ -30,3 +30,8 @@ vim.keymap.set('n', '<leader>bn', vim.cmd.bn, { desc = '[b]uffer [n]ext' })
 vim.keymap.set('n', '<leader>bp', vim.cmd.bp, { desc = '[b]uffer [p]revious' })
 -- TODO make function to handle no modified buffer exception
 vim.keymap.set('n', '<leader>bm', vim.cmd.bmod, { desc = '[b]uffer next [m]odified' })
+
+-- Fix kitty Enter key
+vim.api.nvim_set_keymap('', '<kEnter>', '<Enter>', {})
+vim.api.nvim_set_keymap('i', '<kEnter>', '<Enter>', {})
+vim.api.nvim_set_keymap('c', '<kEnter>', '<Enter>', {})
