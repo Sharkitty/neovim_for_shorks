@@ -6,17 +6,23 @@ This is just a personnal config of Neovim I'm working on. It uses `Lazy` as its 
 ## Installation
 ### On Linux
 Go to your `~/.config` directory:
-```cd ~/.config```
+```
+cd ~/.config
+```
 
 Clone this repository:
-```git clone https://github.com/Sharkitty/neovim_for_shorks.git```
-
+```
+git clone https://github.com/Sharkitty/neovim_for_shorks.git
+```
 or
-
-```git clone git@github.com:Sharkitty/neovim_for_shorks.git```
+```
+git clone git@github.com:Sharkitty/neovim_for_shorks.git
+```
 
 Rename the created directory:
-```mv neovim_for_shorks nvim```
+```
+mv neovim_for_shorks nvim
+```
 
 Open neovim, Lazy should install the included plugins.
 
