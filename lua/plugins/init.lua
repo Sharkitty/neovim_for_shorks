@@ -9,7 +9,11 @@ return {
 	},
 	'ThePrimeagen/harpoon',
 	'mbbill/undotree',
-	'tpope/vim-fugitive',
+    -- Git integration
+    { "NeogitOrg/neogit", dependencies = "nvim-lua/plenary.nvim", config = true },
+    'lewis6991/gitsigns.nvim',
+    'sindrets/diffview.nvim',
+    -- LSP
 	{
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',
@@ -26,6 +30,7 @@ return {
 	  }
 	},
     -- { "lukas-reineke/indent-blankline.nvim" },
+    -- Theme
     {
       "baliestri/aura-theme",
       lazy = false,
