@@ -25,4 +25,5 @@ vim.keymap.set('n', '<leader>Y', '\"+Y', { desc = '[Y]ank to system clipboard' }
 -- Buffer control
 vim.keymap.set('n', '<leader>bn', vim.cmd.bn, { desc = '[b]uffer [n]ext' })
 vim.keymap.set('n', '<leader>bp', vim.cmd.bp, { desc = '[b]uffer [p]revious' })
-
+-- TODO make function to handle no modified buffer exception
+vim.keymap.set('n', '<leader>bm', vim.cmd.bmod, { desc = '[b]uffer next [m]odified' })
