@@ -8,6 +8,9 @@ vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = '[p]roject [v]iew' })
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv", { desc = 'Move selection down' })
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv", { desc = 'Move selection up' })
 
+-- Clear search highlights
+vim.keymap.set('n', '<leader>nh', vim.cmd.noh, { desc = '[n]o [h]ighlight' })
+
 -- Tricks to keep cursor in the middle during big movements
 vim.keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'Move half a screen [d]own' })
 vim.keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'Move half a screen [u]p' })

@@ -7,3 +7,8 @@ vim.keymap.set('n', '<leader>gg', function() neogit.open() end, { desc = 'Open n
 
 -- Setup gitsigns
 require('gitsigns').setup()
+
+-- Setup diffview
+require('diffview').setup({
+    use_icons = false
+})
