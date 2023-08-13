@@ -25,5 +25,5 @@ vim.opt.scrolloff = 8
 
 -- Color columns/rulers
 -- 79 for PEP8, 88 for black
--- vim.opt.colorcolumn = {'79', '88'}
+vim.opt.colorcolumn = {'79', '88'}
 
