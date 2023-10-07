@@ -29,7 +29,7 @@ return {
 	    {'L3MON4D3/LuaSnip'},     -- Required
 	  }
 	},
-    { "lukas-reineke/indent-blankline.nvim" },
+    { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
     -- Theme
     {
       "baliestri/aura-theme",

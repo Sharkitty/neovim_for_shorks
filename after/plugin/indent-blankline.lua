@@ -1,25 +1,20 @@
 vim.opt.list = true
 vim.opt.listchars:append "space:⋅"
 
+local highlight_main = "IndentBlanklineIndent1"
+local highlight_scope = "IndentBlanklineScope1"
+
 -- Whitespace color
-vim.cmd [[hi Whitespace guifg=#3d375e gui=nocombine]]
+vim.api.nvim_set_hl(0, "Whitespace", { fg = "#3d375e" })
 
--- Indent colors
-vim.cmd [[hi IndentBlanklineIndent1 guifg=#3d375e gui=nocombine]]
+-- Indent color
+vim.api.nvim_set_hl(0, "IndentBlanklineIndent1", { fg = "#3d375e" })
 
-require("indent_blankline").setup {
-        space_char_blankline = " ",
-        show_current_context = true,
-        show_current_context_start = true,
-        indent_blankline_use_treesitter = true,
-        char_highlight_list = {
-                "IndentBlanklineIndent1"
-        },
-        space_char_highlight_list = {
-                "IndentBlanklineIndent1"
-        },
-        space_char_blankline_highlight_list = {
-                "IndentBlanklineIndent1"
-        },
+-- Scope color
+vim.api.nvim_set_hl(0, "IndentBlanklineScope1", { fg = "#a277ff" })
 
+require("ibl").setup {
+    indent = { highlight = highlight_main },
+    whitespace = { highlight = highlight_main },
+    scope = { highlight = highlight_scope },
 }
