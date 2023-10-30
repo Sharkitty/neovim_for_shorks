@@ -9,6 +9,7 @@ return {
 	},
 	'ThePrimeagen/harpoon',
 	'mbbill/undotree',
+    'vimwiki/vimwiki',
     -- Git integration
     { "NeogitOrg/neogit", dependencies = "nvim-lua/plenary.nvim", config = true },
     'lewis6991/gitsigns.nvim',
