@@ -9,6 +9,7 @@ vim.g.vimwiki_list = {
         auto_toc = 1,
         links_space_char = '_',
         nested_synstaxes = { python = 'python' },
+        cycle_bullets = 1,
         auto_tags = 1,
         auto_diary_index = 1,
     },
