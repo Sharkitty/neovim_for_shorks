@@ -1,6 +1,6 @@
 return {
 	{
-		'nvim-telescope/telescope.nvim', tag = '0.1.2',
+		'nvim-telescope/telescope.nvim', tag = '0.1.5',
 		dependencies = {'nvim-lua/plenary.nvim'}
 	},
 	{
@@ -17,7 +17,7 @@ return {
     -- LSP
 	{
 	  'VonHeikemen/lsp-zero.nvim',
-	  branch = 'v2.x',
+	  branch = 'v3.x',
 	  dependencies = {
 	    -- LSP Support
 	    {'neovim/nvim-lspconfig'},             -- Required
