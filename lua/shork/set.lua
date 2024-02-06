@@ -15,7 +15,7 @@ vim.opt.smartindent = true
 -- No backup but long undohistory
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv('HOME') .. '/.nvim/undodir'
+vim.opt.undodir = os.getenv('HOME') .. '/.cache/nvim/undodir'
 vim.opt.undofile = true
 
 -- Incremental search
