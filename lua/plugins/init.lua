@@ -31,6 +31,17 @@ return {
 	  }
 	},
     { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
+    {
+        "nvim-tree/nvim-tree.lua",
+        version = "*",
+        lazy = false,
+        dependencies = {
+            "nvim-tree/nvim-web-devicons",
+        },
+        config = function()
+            require("nvim-tree").setup {}
+        end,
+    },
     -- Theme
     {
       "folke/tokyonight.nvim",

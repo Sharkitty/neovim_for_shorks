@@ -1,9 +1,6 @@
 -- Leader key
 vim.g.mapleader = ' '
 
--- Explore
-vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = '[p]roject [v]iew' })
-
 -- Magical move highlighted lines
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv", { desc = 'Move selection down' })
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv", { desc = 'Move selection up' })
@@ -30,3 +27,6 @@ vim.keymap.set('n', '<leader>bn', vim.cmd.bn, { desc = '[b]uffer [n]ext' })
 vim.keymap.set('n', '<leader>bp', vim.cmd.bp, { desc = '[b]uffer [p]revious' })
 -- TODO make function to handle no modified buffer exception
 vim.keymap.set('n', '<leader>bm', vim.cmd.bmod, { desc = '[b]uffer next [m]odified' })
+
+-- Window management
+vim.keymap.set('n', '<leader>w', '<C-w>')

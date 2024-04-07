@@ -28,3 +28,6 @@ vim.opt.scrolloff = 8
 -- 79 for PEP8, 88 for black
 vim.opt.colorcolumn = {'79', '88'}
 
+-- disable netrw
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
