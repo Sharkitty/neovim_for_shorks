@@ -7,7 +7,8 @@ vim.opt.relativenumber = true
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
+-- Expand tab can forces all indents to be spaces if it's set to True
+vim.opt.expandtab = false
 
 -- Smart indent
 vim.opt.smartindent = true
