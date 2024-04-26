@@ -16,6 +16,7 @@ Here are the main plugins used in neovim_for_shorks:
 - `indent-blankline` - To display whitespaces and indent.
 - `nvim-tree` - For a more userfriendly file manager (`netrw` is disabled).
 - `nvim-web-devicons` - Used by `nvim-tree` and `telescope` to add some icons.
+- `ultimate-autopair.nvim` - For autopairing.
 - `tokyonight` - For the look.
 
 ## Installation
