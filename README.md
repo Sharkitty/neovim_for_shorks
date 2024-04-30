@@ -20,7 +20,7 @@ Here are the main plugins used in neovim_for_shorks:
 - `tokyonight` - For the look.
 
 ## Installation
-Ensure you have neovim installed. You may need additional dependencies such as `gcc`.
+Ensure you have neovim installed. You may need additional dependencies such as `gcc`, `fd-find`, `ripgrep` and `python3-neovim` (As named in fedora).
 ```
 git clone https://github.com/Sharkitty/neovim_for_shorks.git ~/.config/nvim
 ```
