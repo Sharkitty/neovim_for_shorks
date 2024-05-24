@@ -11,7 +11,12 @@ return {
 	'mbbill/undotree',
     'vimwiki/vimwiki',
     -- Git integration
-    { "NeogitOrg/neogit", dependencies = "nvim-lua/plenary.nvim", config = true },
+    {
+        "NeogitOrg/neogit",
+        dependencies = "nvim-lua/plenary.nvim",
+        config = true,
+        tag = 'v0.0.1'
+    },
     'lewis6991/gitsigns.nvim',
     'sindrets/diffview.nvim',
     -- LSP
