@@ -1,3 +1,5 @@
+***MIGRATED [CODEBERG](https://codeberg.org/sharkitty/neovim_for_shorks)***
+
 # A Neovim config made for shorks!
 Can be shared with feeshes as well!
 
